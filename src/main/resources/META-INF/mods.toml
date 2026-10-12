@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT"
+
+[[mods]]
+modId="securitycams"
+version="1.0.0"
+displayName="Security Cams"
+description='''
+Craftable security cameras you can mount on any wall, floor or ceiling, and watch live on a tablet. Includes night vision, panning and zoom.
+'''
+
+[[dependencies.securitycams]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.securitycams]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"

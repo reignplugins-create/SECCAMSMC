@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "0": "securitycams:block/security_camera",
+    "particle": "securitycams:block/security_camera"
+  },
+  "elements": [
+    {
+      "from": [6, 6, 14], "to": [10, 10, 16],
+      "faces": {
+        "south": { "texture": "#0" },
+        "east":  { "texture": "#0" },
+        "west":  { "texture": "#0" },
+        "up":    { "texture": "#0" },
+        "down":  { "texture": "#0" }
+      }
+    },
+    {
+      "from": [5, 5, 7], "to": [11, 11, 14],
+      "faces": {
+        "north": { "texture": "#0" },
+        "south": { "texture": "#0" },
+        "east":  { "texture": "#0" },
+        "west":  { "texture": "#0" },
+        "up":    { "texture": "#0" },
+        "down":  { "texture": "#0" }
+      }
+    },
+    {
+      "from": [6, 6, 5], "to": [10, 10, 7],
+      "faces": {
+        "north": { "uv": [12, 12, 16, 16], "texture": "#0" },
+        "east":  { "texture": "#0" },
+        "west":  { "texture": "#0" },
+        "up":    { "texture": "#0" },
+        "down":  { "texture": "#0" }
+      }
+    }
+  ]
+}

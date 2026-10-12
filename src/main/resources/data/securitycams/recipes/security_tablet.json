@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["III", "GDG", "IRI"],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot" },
+    "G": { "item": "minecraft:glass_pane" },
+    "D": { "item": "minecraft:diamond" },
+    "R": { "item": "minecraft:redstone" }
+  },
+  "result": { "item": "securitycams:security_tablet", "count": 1 }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": { "model": "securitycams:block/security_camera" },
+    "facing=east":  { "model": "securitycams:block/security_camera", "y": 90 },
+    "facing=south": { "model": "securitycams:block/security_camera", "y": 180 },
+    "facing=west":  { "model": "securitycams:block/security_camera", "y": 270 },
+    "facing=up":    { "model": "securitycams:block/security_camera", "x": 270 },
+    "facing=down":  { "model": "securitycams:block/security_camera", "x": 90 }
+  }
+}
